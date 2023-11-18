@@ -54,7 +54,7 @@ def typos_generator(text, model_weight_parameter, base_keyboard):
     return join_jamos(typos_str)
 
 
-input_dictionary = {'data': ["지구", "위의", "모든", "일ㅇ"], 'target': "일은"}
+input_dictionary = {'data': ["지구", "웨의", "모든", "일웨ㅇ"], 'target': "일은"}
 
 model_weight_parameter = 100  # 크면 클수록 전체적인 오타가 늘어나는 경향성을 보임
 
